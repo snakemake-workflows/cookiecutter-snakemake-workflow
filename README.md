@@ -6,17 +6,24 @@
 This is the template for a new Snakemake workflow. Replace this text with a comprehensive description, covering the purpose and domain.
 Insert your code into the respective folders, i.e. `scripts`, `rules` and `envs`. Define the entry point of the workflow in the `Snakefile` and the main configuration in the `config.yaml` file.
 
+## Authors
+
+* {{cookiecutter.full_name}} ({{cookiecutter.username}})
+
 ## Usage
 
-### Step 1: Fork this repository
+### Step 1: Install workflow
 
-Fork this reposity via the fork button at the top of the page.
+If you simply want to use this workflow, download and extract the [latest release](https://github.com/snakemake-workflows/{{cookiecutter.repo_name}}/releases).
+If you intend to modify and further develop this workflow, fork this reposity. Please consider providing any generally applicable modifications via a pull request.
+
+In any case, if you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this repository and, if available, its DOI (see above).
 
 ### Step 2: Configure workflow
 
 Configure the workflow according to your needs via editing the file `config.yaml`.
 
-### Step 3: Execute the workflow
+### Step 3: Execute workflow
 
 Test your configuration by performing a dry-run via
 
