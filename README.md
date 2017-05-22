@@ -8,7 +8,7 @@ Insert your code into the respective folders, i.e. `scripts`, `rules` and `envs`
 
 ## Authors
 
-* {{cookiecutter.full_name}} ({{cookiecutter.username}})
+* {{cookiecutter.full_name}} (@{{cookiecutter.username}})
 
 ## Usage
 
