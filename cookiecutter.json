@@ -3,5 +3,6 @@
   "email": "johannes.koester@protonmail.com",
   "username": "johanneskoester",
   "project_name": "RNA-Seq",
-  "repo_name": "rna-seq"
+  "repo_name": "rna-seq",
+  "min_snakemake_version": "3.12.0"
 }
