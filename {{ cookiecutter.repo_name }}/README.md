@@ -42,3 +42,7 @@ or
     snakemake --drmaa --jobs 100
 
 See the [Snakemake documentation](https://snakemake.readthedocs.io) for further details.
+
+## Testing
+
+Tests cases are in the subfolder `.test`. They should be executed via continuous integration with Travis CI.
