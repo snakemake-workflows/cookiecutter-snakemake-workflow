@@ -12,7 +12,7 @@ scripts/.snakemake*
 !envs
 !envs/*
 !environment.yaml
-!LICENSE.md
+!LICENSE
 !README.md
 !rules
 !rules/*
