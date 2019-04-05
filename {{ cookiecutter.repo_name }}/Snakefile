@@ -3,6 +3,7 @@
 
 
 configfile: "config.yaml"
+report: "report/workflow.rst"
 
 
 rule all:
