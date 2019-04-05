@@ -62,7 +62,7 @@ The following recipe provides established best practices for running and extendi
 4. Modify the config, and any necessary sheets (and probably the workflow) as needed.
 5. Commit any changes and push the project-branch to your fork on github.
 6. Run the analysis.
-7. Optional: Merge back any valuable and generalizable changes to the [upstream repo](https://github.com/snakemake-workflows/{{cookiecutter.repo_name}}).
+7. Optional: Merge back any valuable and generalizable changes to the [upstream repo](https://github.com/snakemake-workflows/{{cookiecutter.repo_name}}) via a [**pull request**](https://help.github.com/en/articles/creating-a-pull-request). This would be **greatly appreciated**.
 8. Optional: Push results (plots/tables) to the remote branch on your fork.
 9. Optional: Create a self-contained workflow archive for publication along with the paper (snakemake --archive).
 10. Optional: Delete the local clone/workdir to free space.
