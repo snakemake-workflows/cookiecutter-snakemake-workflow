@@ -51,6 +51,7 @@ After successful execution, you can create a self-contained interactive HTML rep
 
     snakemake --report report.html
 
+This report can, e.g., be forwarded to your collaborators.
 
 ### Advanced
 
