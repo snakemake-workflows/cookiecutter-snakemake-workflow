@@ -43,6 +43,11 @@ or
 
     snakemake --use-conda --drmaa --jobs 100
 
+If you not only want to fix the software stack but also the underlying OS, use
+
+    snakemake --use-conda --use-singularity
+
+in combination with any of the modes above.
 See the [Snakemake documentation](https://snakemake.readthedocs.io/en/stable/executable.html) for further details.
 
 # Step 4: Investigate results
