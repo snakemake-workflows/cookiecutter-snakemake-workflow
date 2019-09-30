@@ -7,6 +7,8 @@ scripts/.snakemake*
 !Snakefile
 !config
 !config/*
+!report
+!report/*
 !resources
 !resources/*
 !envs
