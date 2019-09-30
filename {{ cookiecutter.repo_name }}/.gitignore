@@ -18,6 +18,8 @@ scripts/.snakemake*
 !README.md
 !rules
 !rules/*
+!schemas
+!schemas/*
 !.gitignore
 !.gitattributes
 !.editorconfig
