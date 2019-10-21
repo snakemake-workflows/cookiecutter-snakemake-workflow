@@ -61,7 +61,7 @@ If you not only want to fix the software stack but also the underlying OS, use
 in combination with any of the modes above.
 See the [Snakemake documentation](https://snakemake.readthedocs.io/en/stable/executable.html) for further details.
 
-#### Step 5: Investigate results
+### Step 5: Investigate results
 
 After successful execution, you can create a self-contained interactive HTML report with all results via:
 
@@ -70,14 +70,14 @@ After successful execution, you can create a self-contained interactive HTML rep
 This report can, e.g., be forwarded to your collaborators.
 An example (using some trivial test data) can be seen [here](https://cdn.rawgit.com/snakemake-workflows/rna-seq-kallisto-sleuth/master/.test/report.html).
 
-#### Step 6: Commit changes
+### Step 6: Commit changes
 
 Whenever you change something, don't forget to commit the changes back to your github copy of the repository:
 
     git commit -a
     git push
 
-#### Step 7: Contribute back
+### Step 7: Contribute back
 
 In case you have also changed or added steps, please consider contributing them back to the original repository:
 
