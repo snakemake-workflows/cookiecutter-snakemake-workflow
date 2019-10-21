@@ -22,7 +22,7 @@ If you use this workflow in a paper, don't forget to give credits to the authors
 
 ### Step 2: Configure workflow
 
-Configure the workflow according to your needs via editing the files in the `config/` folder. `config.yaml` determines the workflow execution and parameters for different steps. `samples.tsv` and `units.tsv` specify the sample setup, with the distinction between biological `samples` and technical `units`.
+Configure the workflow according to your needs via editing the files in the `config/` folder. Adjust `config.yaml` to configure the workflow execution, and `samples.tsv` to specify your sample setup.
 
 ### Step 3: Install Snakemake
 
