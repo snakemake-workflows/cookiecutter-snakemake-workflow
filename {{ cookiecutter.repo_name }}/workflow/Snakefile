@@ -2,7 +2,6 @@
 # After configuring, running snakemake -n in a clone of this repository should successfully execute a dry-run of the workflow.
 
 
-configfile: "config.yaml"
 report: "report/workflow.rst"
 
 # Allow users to fix the underlying OS via singularity.
@@ -15,4 +14,5 @@ rule all:
         # Subsequent target rules can be specified below. They should start with all_*.
 
 
+include: "rules/common.smk"
 include: "rules/other.smk"
