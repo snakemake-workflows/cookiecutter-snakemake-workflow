@@ -7,7 +7,7 @@ analysis/*
 !resources
 !resources/*
 !workflow
-!workflow/*
+!workflow/**
 .gitignore
 !.gitattributes
 !.editorconfig
