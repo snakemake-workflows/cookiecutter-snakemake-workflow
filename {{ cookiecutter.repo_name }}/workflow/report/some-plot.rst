@@ -1,1 +1,1 @@
-This plot is colored by {{ snakemake.wildcards.condition }}.
+This plot is colored by {{ '{{' }} snakemake.wildcards.condition {{ '}}' }}.
