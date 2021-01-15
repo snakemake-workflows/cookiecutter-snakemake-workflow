@@ -3,7 +3,7 @@ import pandas as pd
 
 # this container defines the underlying OS for each job when using the workflow
 # with --use-conda --use-singularity
-singularity: "docker://continuumio/miniconda3"
+container: "docker://continuumio/miniconda3"
 
 ##### load config and sample sheets #####
 
